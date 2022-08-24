@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_menu{
+    background: #0E6BA8;
+    margin-bottom: 30px;
+}
+.header_menu ul{
+    text-align: center;
+}
+.header_menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+    position: relative;
+}
+.header_menu ul li a{
+    color: #fff;
+    padding: 15px 50px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+.header_menu ul li:first-child a{
+    border-left: 1px solid white;
+}
+.header_menu ul li:hover> a{
+    background: #014d80;
+    color: #F2D492;
+}
+/* dropdown menu strat */
+.header_menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 300px;
+    background: #0E6BA8;
+    border-top: 1px solid #ddd;
+    transition: .5s;
+}
+.header_menu ul li ul li{
+    display: block;
+    margin-left: 0;
+}
+.header_menu ul li ul li a{
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.header_menu ul ul li:first-child a{
+    border-left: none;
+}
+/* hover part */
+.header_menu ul li ul{
+   opacity: 0;
+   visibility: hidden;
+   transform: scaleY(0);
+   transform-origin: top center;
+}
+.header_menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+/* socile icon */
+.social{
+    height: 200px;
+    background: rgb(171, 255, 172);
+
+}
+.social ul{
+    text-align: center;
+    line-height: 200px;
+}
+.social ul li{
+    display: inline-block;
+}
+.social ul li a{
+    color: white;
+    background: #014d80;
+    font-size: 40px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 0 15px 0 5px;
+    line-height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: .3s;
+}
+.social ul li a:hover{
+    color: #262322;
+    background: #00ff8c;
+}
+/* list item */
+.list_section{
+    width: 80%;
+    margin:50px auto;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.list_section h1{
+    text-align: center;
+}
+.list_section .box_1{
+    list-style-position: inside;
+    width: 240px;
+    height: 125px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.list_section .box_1{
+
+}
+.list_section .box_2{
+    list-style-position: inside;
+    width: 240px;
+    height: 125px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.list_section .box_2 ol{
+    list-style-type: decimal-leading-zero;
+}
+.list_section .box_3{
+    list-style-position: inside;
+    width: 240px;
+    height: 125px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.list_section .box_3 ol{
+    list-style-type: lower-alpha;
+}
+.list_section .box_4{
+    list-style-position: inside;
+    width: 240px;
+    height: 125px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.list_section .box_4 ol{
+    list-style-type: lower-greek;
+}
+.list_section .box_5{
+    list-style-position: inside;
+    width: 240px;
+    height: 125px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.list_section .box_5 ul{
+    list-style-type: disc;
+}
+.list_section .box_6{
+    list-style-position: inside;
+    width: 240px;
+    height: 125px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.list_section .box_6 ul{
+    list-style-type: square;
+}
+.list_section .box_7{
+    list-style-position: inside;
+    width: 240px;
+    height: 125px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.list_section .box_7 ul{
+    list-style-type: circle;
+}
+.list_section .box_8{
+    list-style-position: inside;
+    width: 240px;
+    height: 125px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.list_section .box_8 ul{
+ list-style-type: none;
+}
+.list_section .box_9{
+    list-style-position: inside;
+    width: 240px;
+    height: 125px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.list_section .box_9 ul{
+    list-style-image:url(./images/001-right-arrow.png);
+}
+.list_section .box_10{
+    list-style-position: inside;
+    width: 240px;
+    height: 125px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.list_section .box_10 ul{
+    list-style-image: url(./images/002-fast-forward.png);
+}
+.list_section .box_11{
+    list-style-position: inside;
+    width: 240px;
+    height: 125px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.list_section .box_11 ul{
+    list-style-image: url(./images/003-right-arrow-1.png);
+}
+.list_section .box_12{
+    list-style-position: inside;
+    width: 240px;
+    height: 125px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.list_section .box_12 ul{
+    list-style-image: url(./images/004-arrow-right.png);
+
+}
+
